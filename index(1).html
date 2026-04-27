@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Himalya Poly Clinic – Medical Clinic & Blood Test Centre in Jankipuram, Lucknow</title>
+  <meta name="description" content="Himalya Poly Clinic – Trusted medical clinic and blood test collection centre in Jankipuram, Lucknow. General physician consultation, full body checkup, CBC, thyroid, diabetes testing & more. Call 080526 47958." />
+  <meta name="keywords" content="medical clinic in Jankipuram, blood test center near me, polyclinic in Lucknow, diagnostic centre Jankipuram, blood test Lucknow, general physician Jankipuram, Himalya Poly Clinic" />
+  <meta property="og:title" content="Himalya Poly Clinic – Trusted Healthcare in Jankipuram" />
+  <meta property="og:description" content="Complete medical care & all blood tests under one roof. Open daily till 10 PM." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    :root {
+      --navy: #0a2a4a;
+      --blue: #1565c0;
+      --blue-mid: #1976d2;
+      --blue-light: #e3f0fc;
+      --teal: #00897b;
+      --teal-dark: #00695c;
+      --teal-light: #e0f2f1;
+      --green: #2e7d32;
+      --green-light: #e8f5e9;
+      --white: #ffffff;
+      --off-white: #f7fafc;
+      --gray-50: #f9fafb;
+      --gray-100: #f3f4f6;
+      --gray-200: #e5e7eb;
+      --gray-400: #9ca3af;
+      --gray-600: #6b7280;
+      --gray-700: #374151;
+      --gray-900: #111827;
+      --gold: #f59e0b;
+      --radius: 12px;
+      --shadow: 0 4px 24px rgba(10,42,74,0.10);
+      --shadow-lg: 0 12px 40px rgba(10,42,74,0.15);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      color: var(--gray-900);
+      background: var(--white);
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+
+    /* ── NAVBAR ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: rgba(255,255,255,0.97);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--gray-200);
+      padding: 0 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px;
+      box-shadow: 0 2px 12px rgba(10,42,74,0.07);
+      transition: box-shadow 0.3s;
+    }
+    .nav-logo {
+      display: flex; align-items: center; gap: 10px; text-decoration: none;
+    }
+    .logo-icon {
+      width: 42px; height: 42px; background: linear-gradient(135deg, var(--blue), var(--teal));
+      border-radius: 10px; display: flex; align-items: center; justify-content: center;
+      color: #fff; font-size: 20px; flex-shrink: 0;
+    }
+    .logo-text { display: flex; flex-direction: column; line-height: 1.1; }
+    .logo-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 19px; font-weight: 700; color: var(--navy); letter-spacing: 0.01em;
+    }
+    .logo-sub { font-size: 10px; color: var(--teal); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+    .nav-links {
+      display: flex; align-items: center; gap: 28px; list-style: none;
+    }
+    .nav-links a {
+      text-decoration: none; font-size: 14px; font-weight: 500; color: var(--gray-700);
+      transition: color 0.2s; position: relative;
+    }
+    .nav-links a::after {
+      content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px;
+      background: var(--teal); border-radius: 2px; transition: width 0.25s;
+    }
+    .nav-links a:hover { color: var(--teal); }
+    .nav-links a:hover::after { width: 100%; }
+    .nav-cta {
+      background: linear-gradient(135deg, var(--blue), var(--teal));
+      color: #fff !important; padding: 9px 22px; border-radius: 50px;
+      font-weight: 600 !important; font-size: 14px; text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s !important;
+      box-shadow: 0 3px 14px rgba(21,101,192,0.35);
+    }
+    .nav-cta::after { display: none !important; }
+    .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(21,101,192,0.45) !important; color: #fff; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 5px; }
+    .hamburger span { width: 24px; height: 2px; background: var(--navy); border-radius: 2px; transition: all 0.3s; }
+
+    /* ── HERO ── */
+    #hero {
+      min-height: 100vh;
+      background: linear-gradient(135deg, var(--navy) 0%, #0d3b6e 55%, #1a5276 100%);
+      display: flex; align-items: center; position: relative; overflow: hidden;
+      padding-top: 68px;
+    }
+    .hero-bg-shapes {
+      position: absolute; inset: 0; pointer-events: none;
+    }
+    .hero-blob {
+      position: absolute; border-radius: 50%; filter: blur(60px); opacity: 0.15;
+    }
+    .hero-blob-1 { width: 500px; height: 500px; background: var(--teal); top: -100px; right: -100px; }
+    .hero-blob-2 { width: 350px; height: 350px; background: var(--blue-mid); bottom: -80px; left: -80px; }
+    .hero-grid-pattern {
+      position: absolute; inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+    .hero-content {
+      max-width: 1200px; margin: 0 auto; padding: 80px 24px 60px;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;
+      position: relative; z-index: 1; width: 100%;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);
+      color: #7dd3fc; padding: 6px 16px; border-radius: 50px; font-size: 13px;
+      font-weight: 500; margin-bottom: 24px; backdrop-filter: blur(8px);
+    }
+    .hero-badge i { color: var(--gold); font-size: 12px; }
+    .hero-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(38px, 5vw, 62px); font-weight: 700;
+      color: #fff; line-height: 1.12; margin-bottom: 16px; letter-spacing: -0.01em;
+    }
+    .hero-title span { color: #7dd3fc; }
+    .hero-sub {
+      font-size: 18px; color: rgba(255,255,255,0.78); margin-bottom: 14px;
+      font-weight: 400; line-height: 1.6;
+    }
+    .hero-tagline {
+      font-size: 14px; color: rgba(255,255,255,0.55); margin-bottom: 36px;
+      letter-spacing: 0.05em; text-transform: uppercase; font-weight: 500;
+    }
+    .hero-buttons { display: flex; gap: 14px; flex-wrap: wrap; }
+    .btn-primary {
+      background: linear-gradient(135deg, #1976d2, #00897b);
+      color: #fff; padding: 14px 30px; border-radius: 50px;
+      font-weight: 600; font-size: 15px; text-decoration: none;
+      display: inline-flex; align-items: center; gap: 8px;
+      box-shadow: 0 6px 24px rgba(21,101,192,0.45);
+      transition: transform 0.2s, box-shadow 0.2s;
+      border: none; cursor: pointer;
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(21,101,192,0.5); color: #fff; }
+    .btn-secondary {
+      background: rgba(255,255,255,0.12); color: #fff;
+      border: 1.5px solid rgba(255,255,255,0.35); padding: 14px 28px;
+      border-radius: 50px; font-weight: 600; font-size: 15px; text-decoration: none;
+      display: inline-flex; align-items: center; gap: 8px;
+      transition: all 0.2s; backdrop-filter: blur(8px); cursor: pointer;
+    }
+    .btn-secondary:hover { background: rgba(255,255,255,0.22); color: #fff; transform: translateY(-2px); }
+    .btn-outline-green {
+      background: rgba(0,137,123,0.15); color: #5eead4;
+      border: 1.5px solid rgba(0,137,123,0.45); padding: 14px 28px;
+      border-radius: 50px; font-weight: 600; font-size: 15px; text-decoration: none;
+      display: inline-flex; align-items: center; gap: 8px;
+      transition: all 0.2s; backdrop-filter: blur(8px); cursor: pointer;
+    }
+    .btn-outline-green:hover { background: rgba(0,137,123,0.28); color: #5eead4; transform: translateY(-2px); }
+    .hero-stats {
+      display: flex; gap: 28px; margin-top: 40px; flex-wrap: wrap;
+    }
+    .hero-stat {
+      display: flex; align-items: center; gap: 10px;
+    }
+    .hero-stat-icon {
+      width: 40px; height: 40px; background: rgba(255,255,255,0.1);
+      border-radius: 10px; display: flex; align-items: center; justify-content: center;
+      color: #7dd3fc; font-size: 16px;
+    }
+    .hero-stat-text strong { display: block; color: #fff; font-size: 18px; font-weight: 700; }
+    .hero-stat-text span { color: rgba(255,255,255,0.55); font-size: 12px; }
+    .hero-visual {
+      display: flex; align-items: center; justify-content: center;
+    }
+    .hero-card-wrap {
+      position: relative; width: 100%; max-width: 460px;
+    }
+    .clinic-info-card {
+      background: rgba(255,255,255,0.07); backdrop-filter: blur(16px);
+      border: 1px solid rgba(255,255,255,0.15); border-radius: 20px;
+      padding: 32px; color: #fff;
+    }
+    .clinic-card-header {
+      display: flex; align-items: center; gap: 14px; margin-bottom: 24px;
+      padding-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.12);
+    }
+    .clinic-card-logo {
+      width: 52px; height: 52px; background: linear-gradient(135deg, var(--blue-mid), var(--teal));
+      border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 24px;
+    }
+    .clinic-card-title { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 700; }
+    .clinic-card-type { font-size: 12px; color: rgba(255,255,255,0.6); margin-top: 2px; }
+    .clinic-detail { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 16px; font-size: 14px; }
+    .clinic-detail i { color: #7dd3fc; font-size: 14px; margin-top: 3px; flex-shrink: 0; }
+    .clinic-detail span { color: rgba(255,255,255,0.82); line-height: 1.5; }
+    .rating-row { display: flex; align-items: center; gap: 10px; margin-top: 20px; padding: 14px; background: rgba(255,255,255,0.06); border-radius: 12px; }
+    .stars { color: var(--gold); font-size: 15px; letter-spacing: 1px; }
+    .rating-text strong { color: #fff; font-size: 16px; }
+    .rating-text span { color: rgba(255,255,255,0.55); font-size: 12px; display: block; }
+    .floating-badge {
+      position: absolute; background: #fff; border-radius: 14px; padding: 12px 18px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.2); display: flex; align-items: center; gap: 10px;
+    }
+    .floating-badge-1 { top: -20px; right: -20px; animation: float1 3s ease-in-out infinite; }
+    .floating-badge-2 { bottom: -20px; left: -20px; animation: float2 3.5s ease-in-out infinite; }
+    .floating-badge i { font-size: 20px; }
+    .floating-badge .badge-text strong { display: block; font-size: 13px; font-weight: 700; color: var(--navy); }
+    .floating-badge .badge-text span { font-size: 11px; color: var(--gray-600); }
+    @keyframes float1 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+    @keyframes float2 { 0%,100%{transform:translateY(0)} 50%{transform:translateY(8px)} }
+
+    /* ── TICKER ── */
+    .ticker-bar {
+      background: linear-gradient(90deg, var(--teal-dark), var(--blue));
+      padding: 10px 0; overflow: hidden; position: relative;
+    }
+    .ticker-inner {
+      display: flex; gap: 0; white-space: nowrap;
+      animation: ticker 28s linear infinite;
+    }
+    .ticker-inner span { display: inline-flex; align-items: center; gap: 8px; padding: 0 40px; color: #fff; font-size: 14px; font-weight: 500; }
+    .ticker-inner span i { color: #7dd3fc; }
+    @keyframes ticker { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+    /* ── SECTIONS COMMON ── */
+    section { padding: 90px 24px; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    .section-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--teal-light); color: var(--teal-dark); padding: 6px 16px;
+      border-radius: 50px; font-size: 13px; font-weight: 600; margin-bottom: 14px;
+      letter-spacing: 0.03em;
+    }
+    .section-badge i { font-size: 12px; }
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(28px, 4vw, 46px); font-weight: 700; color: var(--navy);
+      line-height: 1.15; margin-bottom: 14px; letter-spacing: -0.01em;
+    }
+    .section-title span { color: var(--teal); }
+    .section-desc { color: var(--gray-600); font-size: 16px; max-width: 600px; line-height: 1.7; }
+    .section-header { margin-bottom: 56px; }
+    .section-header.center { text-align: center; }
+    .section-header.center .section-desc { margin: 0 auto; }
+    .divider { width: 60px; height: 4px; background: linear-gradient(90deg, var(--blue), var(--teal)); border-radius: 2px; margin: 16px 0 20px; }
+    .divider.center { margin: 16px auto 20px; }
+
+    /* ── ABOUT ── */
+    #about { background: var(--off-white); }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+    .about-visual { position: relative; }
+    .about-main-card {
+      background: linear-gradient(135deg, var(--navy) 0%, #0d3b6e 100%);
+      border-radius: 24px; padding: 48px 36px; color: #fff; position: relative; overflow: hidden;
+    }
+    .about-card-decor {
+      position: absolute; top: -30px; right: -30px; width: 150px; height: 150px;
+      background: rgba(255,255,255,0.05); border-radius: 50%;
+    }
+    .about-card-decor2 {
+      position: absolute; bottom: -40px; left: -20px; width: 120px; height: 120px;
+      background: rgba(0,137,123,0.15); border-radius: 50%;
+    }
+    .about-card-icon { font-size: 48px; margin-bottom: 20px; }
+    .about-card-title { font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 700; margin-bottom: 12px; }
+    .about-card-desc { font-size: 14px; line-height: 1.7; color: rgba(255,255,255,0.78); }
+    .about-mini-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 16px; }
+    .about-mini {
+      background: #fff; border-radius: 14px; padding: 20px; box-shadow: var(--shadow);
+      border: 1px solid var(--gray-100); transition: transform 0.2s, box-shadow 0.2s;
+      display: flex; align-items: flex-start; gap: 12px;
+    }
+    .about-mini:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+    .about-mini-icon {
+      width: 40px; height: 40px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center; font-size: 17px; flex-shrink: 0;
+    }
+    .bg-blue { background: var(--blue-light); color: var(--blue); }
+    .bg-teal { background: var(--teal-light); color: var(--teal-dark); }
+    .bg-green { background: var(--green-light); color: var(--green); }
+    .bg-gold { background: #fef9c3; color: #b45309; }
+    .about-mini-title { font-size: 13px; font-weight: 700; color: var(--navy); }
+    .about-mini-desc { font-size: 12px; color: var(--gray-600); margin-top: 2px; line-height: 1.4; }
+    .about-text p { color: var(--gray-600); line-height: 1.8; margin-bottom: 18px; font-size: 15px; }
+    .about-highlights { display: flex; flex-direction: column; gap: 14px; margin-top: 24px; }
+    .about-hl { display: flex; align-items: center; gap: 12px; }
+    .about-hl-dot { width: 10px; height: 10px; border-radius: 50%; background: linear-gradient(135deg, var(--blue), var(--teal)); flex-shrink: 0; }
+    .about-hl span { font-size: 14px; color: var(--gray-700); font-weight: 500; }
+
+    /* ── SERVICES ── */
+    #services { background: var(--white); }
+    .services-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 22px; }
+    .service-card {
+      background: var(--white); border: 1px solid var(--gray-100);
+      border-radius: 18px; padding: 28px 24px; box-shadow: var(--shadow);
+      transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+      position: relative; overflow: hidden; cursor: default;
+    }
+    .service-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px;
+      background: linear-gradient(90deg, var(--blue), var(--teal));
+      transform: scaleX(0); transform-origin: left; transition: transform 0.3s;
+    }
+    .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: var(--gray-200); }
+    .service-card:hover::before { transform: scaleX(1); }
+    .service-icon {
+      width: 56px; height: 56px; border-radius: 14px;
+      display: flex; align-items: center; justify-content: center; font-size: 22px;
+      margin-bottom: 18px; transition: transform 0.2s;
+    }
+    .service-card:hover .service-icon { transform: scale(1.08); }
+    .service-title { font-size: 16px; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
+    .service-desc { font-size: 14px; color: var(--gray-600); line-height: 1.6; }
+    .service-tag {
+      display: inline-block; margin-top: 14px; font-size: 12px; font-weight: 600;
+      color: var(--teal-dark); background: var(--teal-light); padding: 3px 10px; border-radius: 50px;
+    }
+
+    /* ── WHY CHOOSE US ── */
+    #why { background: linear-gradient(135deg, var(--navy) 0%, #0d3b6e 100%); color: #fff; }
+    #why .section-title { color: #fff; }
+    #why .section-badge { background: rgba(255,255,255,0.1); color: #7dd3fc; }
+    #why .section-desc { color: rgba(255,255,255,0.7); }
+    #why .divider { background: linear-gradient(90deg, #7dd3fc, var(--teal)); }
+    .why-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 22px; }
+    .why-card {
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 18px; padding: 28px 24px; backdrop-filter: blur(8px);
+      transition: background 0.25s, transform 0.25s;
+    }
+    .why-card:hover { background: rgba(255,255,255,0.1); transform: translateY(-4px); }
+    .why-icon { font-size: 28px; margin-bottom: 16px; }
+    .why-title { font-size: 16px; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .why-desc { font-size: 14px; color: rgba(255,255,255,0.65); line-height: 1.6; }
+    .why-bottom-strip {
+      margin-top: 56px; background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12); border-radius: 18px;
+      padding: 30px 36px; display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 24px;
+    }
+    .why-strip-text h3 { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 700; color: #fff; }
+    .why-strip-text p { font-size: 14px; color: rgba(255,255,255,0.65); margin-top: 4px; }
+    .why-strip-btn {
+      background: linear-gradient(135deg, #1976d2, #00897b);
+      color: #fff; padding: 13px 28px; border-radius: 50px;
+      font-weight: 600; font-size: 15px; text-decoration: none;
+      display: inline-flex; align-items: center; gap: 8px;
+      box-shadow: 0 6px 20px rgba(21,101,192,0.4); transition: transform 0.2s;
+    }
+    .why-strip-btn:hover { transform: translateY(-2px); color: #fff; }
+
+    /* ── REVIEWS ── */
+    #reviews { background: var(--gray-50); }
+    .reviews-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
+    .review-card {
+      background: #fff; border-radius: 18px; padding: 28px;
+      box-shadow: var(--shadow); border: 1px solid var(--gray-100);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .review-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+    .review-stars { color: var(--gold); font-size: 16px; letter-spacing: 2px; margin-bottom: 14px; }
+    .review-text { font-size: 15px; color: var(--gray-700); line-height: 1.7; font-style: italic; margin-bottom: 20px; }
+    .review-author { display: flex; align-items: center; gap: 12px; }
+    .review-avatar {
+      width: 44px; height: 44px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; font-weight: 700; color: #fff; flex-shrink: 0;
+    }
+    .review-name { font-weight: 600; color: var(--navy); font-size: 14px; }
+    .review-date { font-size: 12px; color: var(--gray-400); margin-top: 2px; }
+    .review-google-badge { display: flex; align-items: center; gap: 6px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--gray-100); font-size: 12px; color: var(--gray-400); font-weight: 500; }
+    .review-google-badge i { color: #ea4335; }
+    .review-highlight {
+      text-align: center; margin-top: 48px; padding: 32px;
+      background: linear-gradient(135deg, var(--blue-light), var(--teal-light));
+      border-radius: 20px; border: 1px solid rgba(21,101,192,0.12);
+    }
+    .review-highlight .stars { color: var(--gold); font-size: 28px; letter-spacing: 4px; }
+    .review-highlight h3 { font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 700; color: var(--navy); margin: 10px 0 6px; }
+    .review-highlight p { color: var(--gray-600); font-size: 14px; }
+
+    /* ── CONTACT ── */
+    #contact { background: var(--white); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+    .contact-info { display: flex; flex-direction: column; gap: 0; }
+    .contact-item {
+      display: flex; gap: 16px; align-items: flex-start;
+      padding: 22px 0; border-bottom: 1px solid var(--gray-100);
+    }
+    .contact-item:last-child { border-bottom: none; }
+    .contact-icon {
+      width: 48px; height: 48px; border-radius: 12px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center; font-size: 18px;
+    }
+    .contact-label { font-size: 12px; color: var(--gray-400); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+    .contact-value { font-size: 15px; color: var(--gray-900); font-weight: 500; line-height: 1.5; }
+    .contact-value a { color: var(--blue); text-decoration: none; }
+    .contact-value a:hover { text-decoration: underline; }
+    .map-wrap { border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); margin-top: 32px; border: 1px solid var(--gray-200); }
+    .map-wrap iframe { display: block; width: 100%; height: 260px; border: none; }
+    .contact-form-wrap { background: var(--gray-50); border-radius: 20px; padding: 36px; border: 1px solid var(--gray-200); }
+    .form-title { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
+    .form-sub { font-size: 14px; color: var(--gray-600); margin-bottom: 28px; }
+    .form-group { margin-bottom: 18px; }
+    .form-group label { display: block; font-size: 13px; font-weight: 600; color: var(--gray-700); margin-bottom: 6px; }
+    .form-group input, .form-group select, .form-group textarea {
+      width: 100%; padding: 12px 16px; border: 1.5px solid var(--gray-200);
+      border-radius: 10px; font-family: 'DM Sans', sans-serif; font-size: 14px;
+      color: var(--gray-900); background: #fff; transition: border-color 0.2s, box-shadow 0.2s;
+      outline: none;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+      border-color: var(--teal); box-shadow: 0 0 0 3px rgba(0,137,123,0.1);
+    }
+    .form-group textarea { resize: vertical; min-height: 90px; }
+    .form-submit {
+      width: 100%; padding: 14px; background: linear-gradient(135deg, var(--blue), var(--teal));
+      color: #fff; border: none; border-radius: 10px; font-size: 15px; font-weight: 600;
+      cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      font-family: 'DM Sans', sans-serif;
+    }
+    .form-submit:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(21,101,192,0.4); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--navy); color: rgba(255,255,255,0.8);
+      padding: 60px 24px 0;
+    }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; max-width: 1200px; margin: 0 auto; padding-bottom: 48px; }
+    .footer-brand .logo-name { color: #fff; font-size: 22px; }
+    .footer-brand .logo-sub { color: rgba(255,255,255,0.5); }
+    .footer-desc { font-size: 14px; line-height: 1.7; margin: 16px 0 20px; color: rgba(255,255,255,0.6); }
+    .footer-rating { display: flex; align-items: center; gap: 10px; padding: 12px 16px; background: rgba(255,255,255,0.07); border-radius: 10px; font-size: 13px; }
+    .footer-rating .stars { color: var(--gold); }
+    .footer-heading { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(255,255,255,0.45); margin-bottom: 18px; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a { color: rgba(255,255,255,0.65); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+    .footer-links a:hover { color: #7dd3fc; }
+    .footer-contact-item { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 14px; font-size: 14px; color: rgba(255,255,255,0.65); }
+    .footer-contact-item i { color: var(--teal); font-size: 14px; margin-top: 3px; flex-shrink: 0; }
+    .footer-contact-item a { color: rgba(255,255,255,0.65); text-decoration: none; }
+    .footer-contact-item a:hover { color: #7dd3fc; }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.08); padding: 20px 24px;
+      max-width: 1200px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between; flex-wrap: gap-12;
+    }
+    .footer-bottom p { font-size: 13px; color: rgba(255,255,255,0.4); }
+    .footer-bottom-area { border-top: 1px solid rgba(255,255,255,0.08); }
+    .footer-seo { text-align: center; font-size: 12px; color: rgba(255,255,255,0.3); padding: 10px 24px; max-width: 1200px; margin: 0 auto; }
+
+    /* ── FLOATING BUTTONS ── */
+    .float-group { position: fixed; bottom: 28px; right: 24px; z-index: 900; display: flex; flex-direction: column; gap: 12px; align-items: flex-end; }
+    .float-btn {
+      width: 56px; height: 56px; border-radius: 50%; border: none; cursor: pointer;
+      display: flex; align-items: center; justify-content: center; font-size: 22px;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.22); transition: transform 0.2s, box-shadow 0.2s;
+      text-decoration: none;
+    }
+    .float-btn:hover { transform: scale(1.1); box-shadow: 0 10px 32px rgba(0,0,0,0.3); }
+    .float-whatsapp { background: #25D366; color: #fff; }
+    .float-call { background: var(--blue); color: #fff; }
+    .float-label {
+      background: var(--navy); color: #fff; font-size: 12px; font-weight: 600;
+      padding: 5px 12px; border-radius: 50px; white-space: nowrap;
+      position: absolute; right: 66px; opacity: 0; transition: opacity 0.2s;
+      pointer-events: none;
+    }
+    .float-btn-wrap { position: relative; display: flex; align-items: center; }
+    .float-btn-wrap:hover .float-label { opacity: 1; }
+    .sticky-appt {
+      position: fixed; top: 68px; right: 0; z-index: 800;
+      background: linear-gradient(135deg, var(--blue), var(--teal));
+      color: #fff; writing-mode: vertical-rl; text-orientation: mixed;
+      padding: 18px 10px; font-size: 13px; font-weight: 600;
+      border-radius: 10px 0 0 10px; box-shadow: -4px 4px 16px rgba(21,101,192,0.4);
+      text-decoration: none; letter-spacing: 0.04em; cursor: pointer;
+      transition: padding 0.2s; display: flex; align-items: center; gap: 8px;
+    }
+    .sticky-appt:hover { padding: 18px 14px; color: #fff; }
+    .sticky-appt i { writing-mode: initial; }
+
+    /* ── ANIMATIONS ── */
+    .fade-in {
+      opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+    .fade-in-left { opacity: 0; transform: translateX(-30px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-in-left.visible { opacity: 1; transform: translateX(0); }
+    .fade-in-right { opacity: 0; transform: translateX(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-in-right.visible { opacity: 1; transform: translateX(0); }
+    .delay-1 { transition-delay: 0.1s; }
+    .delay-2 { transition-delay: 0.2s; }
+    .delay-3 { transition-delay: 0.3s; }
+    .delay-4 { transition-delay: 0.4s; }
+    .delay-5 { transition-delay: 0.5s; }
+
+    /* ── MOBILE ── */
+    @media (max-width: 900px) {
+      .nav-links { display: none; position: fixed; top: 68px; left: 0; right: 0; bottom: 0; background: #fff; flex-direction: column; align-items: center; justify-content: center; gap: 36px; z-index: 999; }
+      .nav-links.open { display: flex; }
+      .nav-links a { font-size: 18px; }
+      .hamburger { display: flex; }
+      .hero-content { grid-template-columns: 1fr; gap: 40px; padding: 60px 24px 40px; }
+      .hero-visual { display: none; }
+      .about-grid, .contact-grid { grid-template-columns: 1fr; }
+      .about-mini-cards { grid-template-columns: 1fr 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .why-bottom-strip { flex-direction: column; text-align: center; }
+      .sticky-appt { display: none; }
+    }
+    @media (max-width: 600px) {
+      .footer-grid { grid-template-columns: 1fr; }
+      .about-mini-cards { grid-template-columns: 1fr; }
+      .hero-buttons { flex-direction: column; }
+      .hero-buttons a, .hero-buttons button { width: 100%; justify-content: center; }
+      .hero-stats { gap: 18px; }
+      section { padding: 64px 20px; }
+    }
+
+    /* Success message */
+    .form-success { display: none; text-align: center; padding: 24px; background: var(--green-light); border-radius: 12px; color: var(--green); font-weight: 600; }
+    .form-success i { font-size: 32px; display: block; margin-bottom: 10px; }
+
+    /* Open badge */
+    .open-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(46,125,50,0.15); color: #4ade80; padding: 4px 12px;
+      border-radius: 50px; font-size: 12px; font-weight: 600; margin-left: 8px;
+    }
+    .open-badge::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: #4ade80; display: inline-block; animation: pulse-green 1.5s infinite; }
+    @keyframes pulse-green { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+    /* Scroll to top */
+    #scroll-top {
+      position: fixed; bottom: 100px; left: 24px; z-index: 800;
+      width: 44px; height: 44px; border-radius: 50%; background: var(--navy);
+      color: #fff; border: none; cursor: pointer; font-size: 16px;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 14px rgba(10,42,74,0.3); transition: all 0.2s;
+      opacity: 0; pointer-events: none;
+    }
+    #scroll-top.show { opacity: 1; pointer-events: all; }
+    #scroll-top:hover { transform: translateY(-3px); background: var(--blue); }
+  </style>
+</head>
+<body>
+
+<!-- ── NAVBAR ── -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">
+    <div class="logo-icon"><i class="fas fa-heartbeat"></i></div>
+    <div class="logo-text">
+      <span class="logo-name">Himalya Poly Clinic</span>
+      <span class="logo-sub">Medical &amp; Diagnostic Centre</span>
+    </div>
+  </a>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="tel:08052647958" class="nav-cta"><i class="fas fa-phone"></i> Call Now</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ── STICKY APPOINTMENT ── -->
+<a href="#contact" class="sticky-appt">
+  <i class="fas fa-calendar-plus"></i> Book Appointment
+</a>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-bg-shapes">
+    <div class="hero-blob hero-blob-1"></div>
+    <div class="hero-blob hero-blob-2"></div>
+    <div class="hero-grid-pattern"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-badge fade-in">
+        <i class="fas fa-star"></i>
+        5.0 Rated Clinic in Jankipuram, Lucknow
+        <span class="open-badge">Open Today</span>
+      </div>
+      <h1 class="hero-title fade-in delay-1">Your Health,<br /><span>Our Priority.</span></h1>
+      <p class="hero-sub fade-in delay-2">Complete Medical Care &amp; All Blood Tests Under One Roof</p>
+      <p class="hero-tagline fade-in delay-3">Trusted Care · Accurate Testing · Better Health</p>
+      <div class="hero-buttons fade-in delay-4">
+        <a href="#contact" class="btn-primary"><i class="fas fa-calendar-plus"></i> Book Appointment</a>
+        <a href="tel:08052647958" class="btn-secondary"><i class="fas fa-phone"></i> Call Now</a>
+        <a href="https://maps.google.com/?q=Himalya+Poly+Clinic+Jankipuram+Lucknow" target="_blank" class="btn-outline-green"><i class="fas fa-map-marker-alt"></i> Get Directions</a>
+      </div>
+      <div class="hero-stats fade-in delay-5">
+        <div class="hero-stat">
+          <div class="hero-stat-icon"><i class="fas fa-star"></i></div>
+          <div class="hero-stat-text"><strong>5.0 ⭐</strong><span>Google Rating</span></div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-icon"><i class="fas fa-vial"></i></div>
+          <div class="hero-stat-text"><strong>All Tests</strong><span>Blood Collection</span></div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-icon"><i class="fas fa-clock"></i></div>
+          <div class="hero-stat-text"><strong>Till 10 PM</strong><span>Open Daily</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual fade-in-right">
+      <div class="hero-card-wrap">
+        <div class="floating-badge floating-badge-1">
+          <i class="fas fa-vial" style="color:#1976d2;"></i>
+          <div class="badge-text"><strong>All Blood Tests</strong><span>Available Here</span></div>
+        </div>
+        <div class="clinic-info-card">
+          <div class="clinic-card-header">
+            <div class="clinic-card-logo">🏥</div>
+            <div>
+              <div class="clinic-card-title">Himalya Poly Clinic</div>
+              <div class="clinic-card-type">Medical Clinic &amp; Blood Test Collection Centre</div>
+            </div>
+          </div>
+          <div class="clinic-detail"><i class="fas fa-map-marker-alt"></i><span>4/490, near Neel Kanthashwar Mandir, Sector H, Sector D, Jankipuram, Lucknow, UP 226021</span></div>
+          <div class="clinic-detail"><i class="fas fa-phone"></i><span>080526 47958</span></div>
+          <div class="clinic-detail"><i class="fas fa-clock"></i><span>Open Daily · Closes at 10:00 PM</span></div>
+          <div class="clinic-detail"><i class="fas fa-flask"></i><span>Himalaya Polyclinic Collection Centre – All Blood Tests Available</span></div>
+          <div class="rating-row">
+            <div>
+              <div class="stars">★★★★★</div>
+            </div>
+            <div class="rating-text">
+              <strong>5.0 / 5.0</strong>
+              <span>Google Reviews · Jankipuram</span>
+            </div>
+          </div>
+        </div>
+        <div class="floating-badge floating-badge-2">
+          <i class="fas fa-shield-alt" style="color:#00897b;"></i>
+          <div class="badge-text"><strong>Hygienic &amp; Safe</strong><span>Trusted Environment</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TICKER ── -->
+<div class="ticker-bar">
+  <div class="ticker-inner">
+    <span><i class="fas fa-heartbeat"></i> CBC &amp; Routine Blood Tests</span>
+    <span><i class="fas fa-vial"></i> Diabetes Testing</span>
+    <span><i class="fas fa-stethoscope"></i> General Physician Consultation</span>
+    <span><i class="fas fa-flask"></i> Thyroid Testing</span>
+    <span><i class="fas fa-user-md"></i> Full Body Health Checkup</span>
+    <span><i class="fas fa-home"></i> Home Sample Collection Available</span>
+    <span><i class="fas fa-shield-alt"></i> Hygienic &amp; Safe Environment</span>
+    <span><i class="fas fa-clock"></i> Open Daily Till 10 PM</span>
+    <!-- Duplicate for seamless loop -->
+    <span><i class="fas fa-heartbeat"></i> CBC &amp; Routine Blood Tests</span>
+    <span><i class="fas fa-vial"></i> Diabetes Testing</span>
+    <span><i class="fas fa-stethoscope"></i> General Physician Consultation</span>
+    <span><i class="fas fa-flask"></i> Thyroid Testing</span>
+    <span><i class="fas fa-user-md"></i> Full Body Health Checkup</span>
+    <span><i class="fas fa-home"></i> Home Sample Collection Available</span>
+    <span><i class="fas fa-shield-alt"></i> Hygienic &amp; Safe Environment</span>
+    <span><i class="fas fa-clock"></i> Open Daily Till 10 PM</span>
+  </div>
+</div>
+
+<!-- ── ABOUT ── -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual fade-in-left">
+        <div class="about-main-card">
+          <div class="about-card-decor"></div>
+          <div class="about-card-decor2"></div>
+          <div class="about-card-icon">🏥</div>
+          <div class="about-card-title">Himalya Poly Clinic</div>
+          <p class="about-card-desc">Your neighbourhood's most trusted medical clinic and blood test collection centre in Jankipuram, Lucknow. We combine experienced medical care with precise diagnostic services to serve every family in the community.</p>
+        </div>
+        <div class="about-mini-cards">
+          <div class="about-mini fade-in delay-1">
+            <div class="about-mini-icon bg-blue"><i class="fas fa-user-md"></i></div>
+            <div>
+              <div class="about-mini-title">Experienced Care</div>
+              <div class="about-mini-desc">Skilled physicians for every consultation</div>
+            </div>
+          </div>
+          <div class="about-mini fade-in delay-2">
+            <div class="about-mini-icon bg-teal"><i class="fas fa-vial"></i></div>
+            <div>
+              <div class="about-mini-title">Accurate Testing</div>
+              <div class="about-mini-desc">Precision diagnostics, fast results</div>
+            </div>
+          </div>
+          <div class="about-mini fade-in delay-3">
+            <div class="about-mini-icon bg-green"><i class="fas fa-wallet"></i></div>
+            <div>
+              <div class="about-mini-title">Affordable Prices</div>
+              <div class="about-mini-desc">Healthcare for every budget</div>
+            </div>
+          </div>
+          <div class="about-mini fade-in delay-4">
+            <div class="about-mini-icon bg-gold"><i class="fas fa-shield-alt"></i></div>
+            <div>
+              <div class="about-mini-title">Safe &amp; Hygienic</div>
+              <div class="about-mini-desc">Strict hygiene standards always</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-text fade-in-right">
+        <div class="section-badge"><i class="fas fa-heart"></i> About Us</div>
+        <h2 class="section-title">Trusted Healthcare<br />in <span>Jankipuram</span></h2>
+        <div class="divider"></div>
+        <p>Himalya Poly Clinic is a premier medical clinic and blood test collection centre serving the families of Jankipuram and surrounding areas in Lucknow. Located conveniently near Neel Kanthashwar Mandir, we have built a reputation for reliable, patient-first healthcare.</p>
+        <p>We offer a comprehensive range of services from general physician consultations to advanced diagnostic blood tests — all under one roof. Our team is dedicated to delivering accurate results with compassion and care, making quality healthcare accessible and affordable for everyone.</p>
+        <p>Open every single day until 10 PM, we are always here when you need us most. Whether it's a routine checkup or a specialised blood test, Himalya Poly Clinic is your dependable healthcare partner in Jankipuram.</p>
+        <div class="about-highlights">
+          <div class="about-hl"><div class="about-hl-dot"></div><span>Patient-first approach with personalised attention</span></div>
+          <div class="about-hl"><div class="about-hl-dot"></div><span>All blood tests available at our collection centre</span></div>
+          <div class="about-hl"><div class="about-hl-dot"></div><span>Hygienic environment with modern facilities</span></div>
+          <div class="about-hl"><div class="about-hl-dot"></div><span>Affordable pricing — quality healthcare for all</span></div>
+          <div class="about-hl"><div class="about-hl-dot"></div><span>Open daily until 10 PM for your convenience</span></div>
+          <div class="about-hl"><div class="about-hl-dot"></div><span>5.0 star Google rating by verified patients</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SERVICES ── -->
+<section id="services">
+  <div class="container">
+    <div class="section-header center fade-in">
+      <div class="section-badge"><i class="fas fa-stethoscope"></i> Our Services</div>
+      <h2 class="section-title">Complete Medical Care<br /><span>Under One Roof</span></h2>
+      <div class="divider center"></div>
+      <p class="section-desc">From general physician consultations to specialised blood tests, we provide a full spectrum of healthcare services to keep you and your family healthy.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card fade-in delay-1">
+        <div class="service-icon bg-blue"><i class="fas fa-user-md"></i></div>
+        <div class="service-title">General Physician Consultation</div>
+        <p class="service-desc">Experienced doctors for fever, infections, chronic conditions, and all general health concerns.</p>
+        <span class="service-tag">Walk-in Welcome</span>
+      </div>
+      <div class="service-card fade-in delay-2">
+        <div class="service-icon bg-teal"><i class="fas fa-vial"></i></div>
+        <div class="service-title">Blood Test Collection Centre</div>
+        <p class="service-desc">All types of blood tests collected at our centre with quick, accurate reports from certified labs.</p>
+        <span class="service-tag">All Tests Available</span>
+      </div>
+      <div class="service-card fade-in delay-3">
+        <div class="service-icon bg-green"><i class="fas fa-heartbeat"></i></div>
+        <div class="service-title">Full Body Checkup</div>
+        <p class="service-desc">Comprehensive health packages covering vitals, blood work, and organ function assessments.</p>
+        <span class="service-tag">Health Packages</span>
+      </div>
+      <div class="service-card fade-in delay-1">
+        <div class="service-icon bg-gold"><i class="fas fa-tint"></i></div>
+        <div class="service-title">Diabetes Testing</div>
+        <p class="service-desc">Fasting blood glucose, HbA1c, post-meal sugar, and complete diabetes management panels.</p>
+        <span class="service-tag">Fast Results</span>
+      </div>
+      <div class="service-card fade-in delay-2">
+        <div class="service-icon bg-blue"><i class="fas fa-radiation-alt"></i></div>
+        <div class="service-title">Thyroid Testing</div>
+        <p class="service-desc">TSH, T3, T4, and complete thyroid panel tests for accurate diagnosis and monitoring.</p>
+        <span class="service-tag">Accurate Reports</span>
+      </div>
+      <div class="service-card fade-in delay-3">
+        <div class="service-icon bg-teal"><i class="fas fa-flask"></i></div>
+        <div class="service-title">CBC &amp; Routine Blood Tests</div>
+        <p class="service-desc">Complete Blood Count, LFT, KFT, lipid profiles, vitamin levels, and all routine tests.</p>
+        <span class="service-tag">Same-Day Reports</span>
+      </div>
+      <div class="service-card fade-in delay-1">
+        <div class="service-icon bg-green"><i class="fas fa-box-open"></i></div>
+        <div class="service-title">Health Packages</div>
+        <p class="service-desc">Curated preventive health packages at affordable prices for individuals and families.</p>
+        <span class="service-tag">Best Value</span>
+      </div>
+      <div class="service-card fade-in delay-2">
+        <div class="service-icon bg-gold"><i class="fas fa-shield-virus"></i></div>
+        <div class="service-title">Preventive Health Checkups</div>
+        <p class="service-desc">Proactive screening tests to detect potential health concerns before they become serious.</p>
+        <span class="service-tag">Early Detection</span>
+      </div>
+      <div class="service-card fade-in delay-3">
+        <div class="service-icon bg-blue"><i class="fas fa-home"></i></div>
+        <div class="service-title">Home Sample Collection</div>
+        <p class="service-desc">Convenient blood sample collection at your doorstep for elderly and immobile patients.</p>
+        <span class="service-tag">At Your Doorstep</span>
+      </div>
+      <div class="service-card fade-in delay-1">
+        <div class="service-icon bg-teal"><i class="fas fa-stethoscope"></i></div>
+        <div class="service-title">Basic Medical Consultation</div>
+        <p class="service-desc">Quick consultations for minor ailments, prescriptions, and follow-up care at minimal cost.</p>
+        <span class="service-tag">Affordable</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── WHY CHOOSE US ── -->
+<section id="why">
+  <div class="container">
+    <div class="section-header center fade-in">
+      <div class="section-badge"><i class="fas fa-award"></i> Why Choose Us</div>
+      <h2 class="section-title">Why Jankipuram<br />Trusts <span style="color:#7dd3fc;">Himalya Poly Clinic</span></h2>
+      <div class="divider center" style="background:linear-gradient(90deg,#7dd3fc,#5eead4);"></div>
+      <p class="section-desc" style="color:rgba(255,255,255,0.65);">We combine experienced care with advanced diagnostics and a genuine patient-first approach that makes us the most trusted clinic in the area.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card fade-in delay-1">
+        <div class="why-icon">🏆</div>
+        <div class="why-title">Trusted Local Clinic</div>
+        <p class="why-desc">A well-established clinic with a 5.0 Google rating, trusted by families across Jankipuram for consistent, reliable healthcare.</p>
+      </div>
+      <div class="why-card fade-in delay-2">
+        <div class="why-icon">🔬</div>
+        <div class="why-title">Accurate Lab Testing</div>
+        <p class="why-desc">All blood tests processed by certified labs using modern equipment, ensuring precision and reliability in every report.</p>
+      </div>
+      <div class="why-card fade-in delay-3">
+        <div class="why-icon">💰</div>
+        <div class="why-title">Affordable Pricing</div>
+        <p class="why-desc">Quality healthcare should not be a luxury. We offer the most competitive pricing in Jankipuram without compromising on quality.</p>
+      </div>
+      <div class="why-card fade-in delay-1">
+        <div class="why-icon">👨‍⚕️</div>
+        <div class="why-title">Experienced Medical Support</div>
+        <p class="why-desc">Our experienced physician and medical staff provide expert guidance, careful diagnosis, and compassionate patient care.</p>
+      </div>
+      <div class="why-card fade-in delay-2">
+        <div class="why-icon">⚡</div>
+        <div class="why-title">Quick Reports</div>
+        <p class="why-desc">Get your test reports quickly without long waiting times. We value your time and ensure prompt delivery of results.</p>
+      </div>
+      <div class="why-card fade-in delay-3">
+        <div class="why-icon">🧼</div>
+        <div class="why-title">Hygienic &amp; Safe Environment</div>
+        <p class="why-desc">Our facility maintains the highest hygiene standards with sterile equipment and a clean, safe environment for all patients.</p>
+      </div>
+      <div class="why-card fade-in delay-1">
+        <div class="why-icon">📍</div>
+        <div class="why-title">Convenient Location</div>
+        <p class="why-desc">Centrally located in Jankipuram near Neel Kanthashwar Mandir, with easy access and open daily from morning until 10 PM.</p>
+      </div>
+    </div>
+    <div class="why-bottom-strip fade-in">
+      <div class="why-strip-text">
+        <h3>Ready for Better Health?</h3>
+        <p>Book your appointment or walk in — we're open every day till 10 PM</p>
+      </div>
+      <a href="tel:08052647958" class="why-strip-btn"><i class="fas fa-phone"></i> Call 080526 47958</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── REVIEWS ── -->
+<section id="reviews">
+  <div class="container">
+    <div class="section-header center fade-in">
+      <div class="section-badge"><i class="fas fa-star"></i> Patient Reviews</div>
+      <h2 class="section-title">What Our Patients<br /><span>Are Saying</span></h2>
+      <div class="divider center"></div>
+      <p class="section-desc">Trusted by families across Jankipuram. Here's what our patients have to say about their experience at Himalya Poly Clinic.</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card fade-in delay-1">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Quick blood test service and very polite staff. Got my reports much faster than expected. Highly recommend this clinic for anyone in Jankipuram looking for reliable blood tests."</p>
+        <div class="review-author">
+          <div class="review-avatar" style="background:linear-gradient(135deg,#1565c0,#1976d2);">R</div>
+          <div>
+            <div class="review-name">Rahul Sharma</div>
+            <div class="review-date">Jankipuram, Lucknow</div>
+          </div>
+        </div>
+        <div class="review-google-badge"><i class="fab fa-google"></i> Verified Google Review</div>
+      </div>
+      <div class="review-card fade-in delay-2">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Reliable clinic with affordable testing. The doctor was thorough and the blood test collection was painless and professional. A trustworthy place for all your health needs."</p>
+        <div class="review-author">
+          <div class="review-avatar" style="background:linear-gradient(135deg,#00897b,#00695c);">P</div>
+          <div>
+            <div class="review-name">Priya Mishra</div>
+            <div class="review-date">Jankipuram, Lucknow</div>
+          </div>
+        </div>
+        <div class="review-google-badge"><i class="fab fa-google"></i> Verified Google Review</div>
+      </div>
+      <div class="review-card fade-in delay-3">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Best local clinic for routine health checkups. Very clean environment, knowledgeable staff, and all tests available at one place. Convenient timings make it perfect for working people."</p>
+        <div class="review-author">
+          <div class="review-avatar" style="background:linear-gradient(135deg,#2e7d32,#388e3c);">A</div>
+          <div>
+            <div class="review-name">Amit Verma</div>
+            <div class="review-date">Sector D, Jankipuram</div>
+          </div>
+        </div>
+        <div class="review-google-badge"><i class="fab fa-google"></i> Verified Google Review</div>
+      </div>
+    </div>
+    <div class="review-highlight fade-in">
+      <div class="stars">★★★★★</div>
+      <h3>5.0 / 5.0 on Google</h3>
+      <p>Consistently rated 5 stars by verified patients in Jankipuram, Lucknow</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header center fade-in">
+      <div class="section-badge"><i class="fas fa-envelope"></i> Contact Us</div>
+      <h2 class="section-title">Find Us &amp;<br /><span>Get in Touch</span></h2>
+      <div class="divider center"></div>
+      <p class="section-desc">Visit us, call us, or fill out the form below. We're here every day till 10 PM to serve you.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="fade-in-left">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon bg-blue"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <div class="contact-label">Address</div>
+              <div class="contact-value">4/490, near Neel Kanthashwar Mandir, Sector H, Sector D, Jankipuram, Lucknow, Uttar Pradesh 226021</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon bg-teal"><i class="fas fa-phone"></i></div>
+            <div>
+              <div class="contact-label">Phone</div>
+              <div class="contact-value"><a href="tel:08052647958">080526 47958</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon bg-green"><i class="fas fa-clock"></i></div>
+            <div>
+              <div class="contact-label">Working Hours</div>
+              <div class="contact-value">Open Every Day · Closes at 10:00 PM</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon bg-gold"><i class="fas fa-flask"></i></div>
+            <div>
+              <div class="contact-label">Speciality</div>
+              <div class="contact-value">Himalaya Polyclinic Collection Centre – All Blood Tests Available</div>
+            </div>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.0!2d80.9482!3d26.8967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd991c3b1ef3%3A0x0!2sJankipuram%2C+Lucknow%2C+Uttar+Pradesh+226021!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Himalya Poly Clinic Location"
+          ></iframe>
+        </div>
+        <div style="margin-top:16px;">
+          <a href="https://maps.google.com/?q=4/490+near+Neel+Kanthashwar+Mandir+Jankipuram+Lucknow" target="_blank" class="btn-primary" style="display:inline-flex;font-size:14px;padding:12px 22px;">
+            <i class="fas fa-directions"></i> Get Directions on Google Maps
+          </a>
+        </div>
+      </div>
+      <div class="fade-in-right">
+        <div class="contact-form-wrap">
+          <div class="form-title">Book an Appointment</div>
+          <p class="form-sub">Fill out the form and we'll confirm your slot shortly. Or call us directly at <strong>080526 47958</strong>.</p>
+          <div id="contact-form">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" placeholder="Enter your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" placeholder="Enter your phone number" required />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Required</label>
+              <select id="service">
+                <option value="">Select a service...</option>
+                <option>General Physician Consultation</option>
+                <option>Blood Test Collection</option>
+                <option>Full Body Checkup</option>
+                <option>Diabetes Testing</option>
+                <option>Thyroid Testing</option>
+                <option>CBC &amp; Routine Blood Tests</option>
+                <option>Health Package</option>
+                <option>Preventive Health Checkup</option>
+                <option>Home Sample Collection</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Additional Notes</label>
+              <textarea id="message" placeholder="Any specific symptoms, concerns, or preferred timing..."></textarea>
+            </div>
+            <button type="button" class="form-submit" onclick="submitForm()">
+              <i class="fas fa-paper-plane"></i> Send Appointment Request
+            </button>
+          </div>
+          <div class="form-success" id="form-success">
+            <i class="fas fa-check-circle"></i>
+            Thank you! Your appointment request has been sent.<br />We'll contact you shortly on your phone number.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="nav-logo" style="margin-bottom:16px;display:inline-flex;">
+        <div class="logo-icon"><i class="fas fa-heartbeat"></i></div>
+        <div class="logo-text">
+          <span class="logo-name">Himalya Poly Clinic</span>
+          <span class="logo-sub">Medical &amp; Diagnostic Centre</span>
+        </div>
+      </a>
+      <p class="footer-desc">Trusted Care, Accurate Testing, Better Health. Serving families in Jankipuram, Lucknow with compassionate and affordable healthcare every day.</p>
+      <div class="footer-rating">
+        <span class="stars">★★★★★</span>
+        <span style="color:rgba(255,255,255,0.7);font-size:13px;">5.0 rating on Google · Jankipuram, Lucknow</span>
+      </div>
+    </div>
+    <div>
+      <div class="footer-heading">Quick Links</div>
+      <ul class="footer-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#why">Why Choose Us</a></li>
+        <li><a href="#reviews">Patient Reviews</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#contact">Book Appointment</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-heading">Services</div>
+      <ul class="footer-links">
+        <li><a href="#services">General Physician</a></li>
+        <li><a href="#services">Blood Test Collection</a></li>
+        <li><a href="#services">Full Body Checkup</a></li>
+        <li><a href="#services">Diabetes Testing</a></li>
+        <li><a href="#services">Thyroid Testing</a></li>
+        <li><a href="#services">CBC &amp; Routine Tests</a></li>
+        <li><a href="#services">Home Sample Collection</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-heading">Contact</div>
+      <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>4/490, near Neel Kanthashwar Mandir, Jankipuram, Lucknow 226021</span></div>
+      <div class="footer-contact-item"><i class="fas fa-phone"></i><a href="tel:08052647958">080526 47958</a></div>
+      <div class="footer-contact-item"><i class="fas fa-clock"></i><span>Open Daily · Closes 10 PM</span></div>
+      <div class="footer-contact-item"><i class="fab fa-whatsapp"></i><a href="https://wa.me/918052647958" target="_blank">WhatsApp Us</a></div>
+    </div>
+  </div>
+  <div class="footer-bottom-area">
+    <div class="footer-seo">
+      Medical Clinic in Jankipuram &nbsp;·&nbsp; Blood Test Centre Lucknow &nbsp;·&nbsp; Polyclinic in Jankipuram &nbsp;·&nbsp; Diagnostic Centre Lucknow &nbsp;·&nbsp; Blood Test Near Me &nbsp;·&nbsp; General Physician Jankipuram
+    </div>
+    <div class="footer-bottom" style="max-width:1200px;margin:0 auto;padding:20px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+      <p>© 2025 Himalya Poly Clinic. All rights reserved. · Serving Jankipuram, Lucknow with Trusted Healthcare.</p>
+      <p style="font-size:13px;color:rgba(255,255,255,0.4);">Open Daily Till 10 PM · Call 080526 47958</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ── FLOATING BUTTONS ── -->
+<div class="float-group">
+  <div class="float-btn-wrap">
+    <span class="float-label">Call Us Now</span>
+    <a href="tel:08052647958" class="float-btn float-call" title="Call Now">
+      <i class="fas fa-phone"></i>
+    </a>
+  </div>
+  <div class="float-btn-wrap">
+    <span class="float-label">WhatsApp Us</span>
+    <a href="https://wa.me/918052647958" target="_blank" class="float-btn float-whatsapp" title="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+</div>
+
+<!-- ── SCROLL TOP ── -->
+<button id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script>
+  // Hamburger menu
+  function toggleMenu() {
+    const links = document.getElementById('nav-links');
+    links.classList.toggle('open');
+  }
+  document.querySelectorAll('#nav-links a').forEach(a => {
+    a.addEventListener('click', () => document.getElementById('nav-links').classList.remove('open'));
+  });
+
+  // Scroll animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); }
+    });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right').forEach(el => observer.observe(el));
+
+  // Scroll top button
+  window.addEventListener('scroll', () => {
+    const btn = document.getElementById('scroll-top');
+    btn.classList.toggle('show', window.scrollY > 400);
+  });
+
+  // Form submission
+  function submitForm() {
+    const name = document.getElementById('name').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    if (!name || !phone) {
+      alert('Please enter your name and phone number.');
+      return;
+    }
+    document.getElementById('contact-form').style.display = 'none';
+    document.getElementById('form-success').style.display = 'block';
+  }
+
+  // Nav shadow on scroll
+  window.addEventListener('scroll', () => {
+    const nav = document.getElementById('navbar');
+    nav.style.boxShadow = window.scrollY > 20
+      ? '0 4px 24px rgba(10,42,74,0.12)'
+      : '0 2px 12px rgba(10,42,74,0.07)';
+  });
+
+  // Hero elements immediate visible
+  document.querySelectorAll('.hero-left .fade-in, .hero-left .fade-in-left').forEach((el, i) => {
+    setTimeout(() => el.classList.add('visible'), i * 120);
+  });
+  document.querySelectorAll('.fade-in-right').forEach((el, i) => {
+    setTimeout(() => el.classList.add('visible'), 400 + i * 150);
+  });
+</script>
+</body>
+</html>
